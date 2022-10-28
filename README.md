@@ -11,3 +11,6 @@ I start this project recently so it might have some issues if u find one or u wa
 
 
 https://paypal.me/LNashou?country.x=FR&locale.x=fr_FR for supporting me
+
+
+Note : i just take a ddos tool and modify it
