@@ -1,0 +1,1 @@
+number = input("put a number (dont forget toadd the country code):")
