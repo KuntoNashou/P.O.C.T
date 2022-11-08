@@ -1,0 +1,6 @@
+folium
+geocoder
+opencage
+phonenumbers
+subprocess
+time

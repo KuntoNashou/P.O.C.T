@@ -1,5 +1,9 @@
 import os 
 import time
+import subprocess
+
+
+os.system('cls')
 
 print(" ███████████     ███████      █████████  ███████████  ") 
 print("░░███░░░░░███  ███░░░░░███   ███░░░░░███░█░░░███░░░█   ") 
@@ -12,22 +16,33 @@ print("░░░░░           ░░░░░░░      ░░░░░░�
 
 print("                                                                        ")
 time.sleep(2)          
-print("                    type the programm you want to use")
-print("---------------------------------------------------------------------------")      
-print("1.phone tracker          2.ddos tool              3.wifi extractor")
-print("4.ip tracker") 
-print("---------------------------------------------------------------------------")  
-option = input()
+print("""                    type the programm you want to use
+        ---------------------------------------------------------------------------     
+        1.precise phone tracker          2.ddos tool              3.wifi extractor
+         4.ip tracker                     5.phone tracker(country & service) 
+        --------------------------------------------------------------------------  
+        https://github.com/KuntoNashou/P.O.C.T    |     Made By KuntoNashou""")
 
-if option == 1:
-    os.system("python location.py")
+option = input('>')
 
-elif option == 2:
-    os.system("python ddos.py")
-elif option == 3:
-    os.system("python wifi-extractor.py")
-elif option == 4:
-    os.system("python ip-tracker.py")
+if option == "1":
+    exec(open('util/location.py').read())
+
+elif option == '2':
+    print("We are sorry but this tool is under construction")
+
+elif option == '3':
+    exec(open("util/wifi-extractor.py" ).read())
+    
+elif option == '4':
+    exec(open("util/ip-tracker.py").read())
+
+elif option == '5':
+    exec(open("util/phone-tracker.py").read())
+  
+else:
+    print("wrong command. retry")
+
 
 
                                                     
