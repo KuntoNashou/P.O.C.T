@@ -14,3 +14,9 @@ https://paypal.me/LNashou?country.x=FR&locale.x=fr_FR for supporting me
 
 
 Note : i just take a ddos tool and modify it
+
+# clone the repo
+$ git clone https://github.com/KuntoNashou/P.O.C.T.git
+
+# install the requirements
+$ python3 -m pip install -r requirements.txt
